@@ -12,9 +12,15 @@ go: to add module requirements and sums:
 ```
 
 ## to run a file
-cd into project folder
-after set up, go into the terminal of the folder and put
+Open a terminal and change the current directory to the directory which contains the above source file, then run
 ```sh
 go run .
 ```
-this should run the main.go file inside the terminal giving you the output
+or...
+
+```sh
+go run main.go
+```
+
+**Note**: 
+* The <code> go run </code> command isn't a recommended way when running large projects in Go. It's used out of conveniency to run simple small Go programs

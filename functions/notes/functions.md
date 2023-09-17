@@ -1,8 +1,8 @@
 # Functions
 
-<p>
-functions in Go can take more that one argument and other cases they can have zero Arguments
-</P>
+
+A functions in Go can take more that one argument and other cases they can have zero Arguments
+
 
 <p>
 to make Go easier to read, the variable type would come after the variable name
@@ -18,3 +18,4 @@ func sub(x int, y int) int {
 it accepts to two integers param and returns another integer
 
 here <mark> func sub(x int, y int) int </mark> is known as a "function signature"
+
